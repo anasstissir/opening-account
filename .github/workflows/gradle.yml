@@ -33,7 +33,7 @@ jobs:
       with:
         arguments: build
     - name: Build & Push docker image
-      uses: mr-smither-excellent/docker-build-push@v5
+      uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: anassfox/opening-account
         tag: latest
